@@ -142,7 +142,7 @@ div.bar .content ul li.active::after {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #3bb9e3; 
+  background-color: #3bb9e3;
 }
 
 div.bar .content ul li span {
@@ -180,3 +180,299 @@ div.bar .content .actions button {
   border-radius: 16px;
 }
 
+div.wrapper-content {
+  display: flex;
+}
+
+div.wrapper-content aside.profile {
+  width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+
+
+div.wrapper-content aside.profile h1 {
+  font-size: 21px;
+  color: #1F2226;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.profile span {
+  font-size: 14px;
+  color: #1F2226;
+}
+
+div.wrapper-content aside.profile p {
+  font-size: 14px;
+  color: #1F2226;
+  margin-top: 15px;
+}
+
+div.wrapper-content aside.profile ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+div.wrapper-content aside.profile ul.list li {
+  font-size: 14px;
+  color: #657786;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.profile ul.list li:first-child {
+  margin: 0;
+}
+
+div.wrapper-content aside.profile li img {
+  margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .widget {
+  margin-top: 20px;
+}
+
+div.wrapper-content aside.profile .widget strong {
+  font-weight: normal;
+  color: #3bb9e3;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.profile .widget strong img {
+  margin-right: 5px;
+}
+
+div.wrapper-content aside.profile .followers ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.wrapper-content aside.profile .followers ul li {
+  width: 45px;
+  height: 45px;
+  background: #d0d5d9;
+  border-radius: 50%;
+  flex: 1 0 auto;
+  margin: 0 5px 10px 0;
+}
+
+div.wrapper-content aside.profile .images ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.wrapper-content aside.profile .images li {
+  width: 80px;
+  height: 80px;
+  background: #d0d5d9;
+  border-radius: 8px;
+  flex: 1 0 auto;
+  margin: 0 5px 5px 0;
+}
+
+div.wrapper-content .timeline {
+  flex: 1;
+  background: #fff;
+  margin: 10px 20px 0;
+}
+
+div.wrapper-content .timeline nav {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+
+div.wrapper-content .timeline nav a {
+  text-decoration: none;
+  color: #38bbe3;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a:first-child {
+  margin: 0;
+}
+
+div.wrapper-content .timeline nav a.active {
+  color: #1f1f1f;
+}
+
+div.wrapper-content .timeline nav ul.tweets {
+  list-style: none;
+}
+
+div.wrapper-content .timeline ul.tweets li {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+  display: flex;
+}
+
+div.wrapper-content .timeline ul.tweets li img.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+div.wrapper-content .timeline ul.tweets li div.info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content .timeline ul.tweets li div.info strong {
+  font-size: 14px;
+  color: #1f2326;
+}
+
+div.wrapper-content .timeline ul.tweets li div.info strong span {
+  font-weight: normal;
+  font-size: 13px;
+  color: #7b8b9a;
+}
+
+div.wrapper-content .timeline ul.tweets li div.info p {
+  font-size: 14px;
+  color: #7b8b9a;
+  margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul.tweets li div.info div.actions {
+  display: flex;
+  margin-top: 20px;
+}
+
+div.wrapper-content .timeline ul.tweets li div.info div.actions a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #667580;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+div.wrapper-content .timeline ul.tweets li div.info div.actions a:first-child {
+  margin-left: 0;
+}
+
+div.wrapper-content .timeline ul.tweets li div.info div.actions a img {
+  margin-right: 5px;
+}
+
+div.wrapper-content aside.widgets {
+  width: 290px;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .widget {
+  padding: 15px;
+  background: #fff;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+}
+
+div.wrapper-content aside.widgets .widget .title strong {
+  font-size: 18px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .widget .title a {
+  color: #3bb9e3;
+  font-size: 12px;
+  text-decoration: none;
+  padding-left: 10px;
+  position: relative;
+}
+
+div.wrapper-content aside.widgets .widget .title a::before {
+  content: '';
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #222;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+}
+
+div.wrapper-content aside.widgets .follow ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccd6dd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile span {
+  font-weight: normal;
+  color: #9a9a9a;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile button {
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3bb9e3;
+  background: #fff;
+  border: 1px solid #3bb9e3;
+  border-radius: 16px;
+  margin-top: 4px;
+}
+
+div.wrapper-content aside.widgets .follow ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+div.wrapper-content aside.widgets .follow ul li>a {
+  color: #CCD6DD;
+  text-decoration: none;
+  font-size: 14px;
+}
